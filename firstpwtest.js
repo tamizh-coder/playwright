@@ -18,7 +18,7 @@ const { chromium } = require('playwright');
   const page = await browser.newPage();
 
   // Open page
-  await page.goto('https://poketmohan4.poket.app/member/', {
+  await page.goto('https://poketmohans21.poket.app/member/', {
     waitUntil: 'domcontentloaded'
   });
 
